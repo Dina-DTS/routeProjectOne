@@ -1,0 +1,339 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+                                                      /* start section Home */
+.header {
+  width: 100%;
+  background-image: url('../images/background-test.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  top: 0;
+  z-index: 10;
+  margin-bottom: 70px;
+}
+
+.container {
+  display: inline-block;
+}
+
+.ul-design {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+ 
+}
+
+.ul-design ul {
+  list-style: none;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.ul-design ul li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.container .logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 30px;
+  font-size: 18px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.descripe {
+  width: 600px;
+  margin: 130px auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.descripe h2 {
+  font-size: 30px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  margin-top: 50px;
+
+}
+.learn{
+  background-color:rgba(195, 196, 208, 0.13);
+  color: white;
+}
+.specialname{
+  color: bisque;
+  font-size: 48px;
+}
+.iconhome{
+  width: 40px;
+  height: 70px;
+  background-color: bisque;
+  margin-left: auto;
+  margin-top: -350px;
+  text-align: center;
+  
+}
+.iconhome i{
+  margin-top: 20px;
+  display: block;
+}
+                                                                      /* End Section Home */
+                                                                    /* Start section About */
+#about {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.contentabout {
+  width: 50%;
+  margin-top: 60px;
+}
+
+#about .descripeabout,
+#about .contentabout,
+#about .advantages,
+.location .locationFor {
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+
+#about .descripeabout {
+  width: 45%;
+}
+#about .contentabout h3{
+  font-size: 32px;
+  color: #303030;
+}
+.photo {
+  height: 100%;
+  width: 90%;
+}
+.icons{
+  margin-top: 20px;
+}
+.icon-one
+{
+  display: block;
+  margin-top: 20px;
+}
+.icon-one span,
+.iconCon span{
+  padding: 10px;
+}
+#about .contentabout p,
+#about .advantages span,
+.location .locationFor p,
+.descCategory p,
+.menuCategory p,
+.contact .infoContact 
+{
+  color: #686868;
+  line-height: 1.86em;
+}
+                                                                /* End section About */
+                                                             /* start section location */
+.location{
+  width: 100%;
+  background-color: #f8f8f8;
+  height: auto;
+  margin-bottom: 70px;
+  vertical-align: auto;
+
+ }    
+ .location .locationFor{
+  width: 40%;
+  padding: 100px;
+
+ }   
+ .locationImage{
+  display: inline-block;
+  width: 40%;
+}  
+.locationImage .photoLocation{
+  margin-top: 20px;
+  width:100% ;
+  height: 100%;
+  display:block
+}
+
+                                                            /* End section location */
+     
+                                                            /* start section category */
+ .category{
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 90px;
+ }   
+.menu{
+  text-align: center;
+}
+ .descCategory{
+  text-align: center;
+ } 
+ .menuCategory{
+  float: left;
+  width: 25%;
+  padding: 60px 50px;
+ }  
+ .menuCategory .photocategory {
+  width: 100%;
+  height: 200px;
+ }  
+ .emptyClear{
+  clear: left;
+ }
+                                                                     /* End section category */
+                                                                     /* Start section Contact Us */
+
+ .contact{
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-bottom: 100px;
+ }  
+ .contact .infoContact{
+  width: 50%;
+  margin-top: 50px;
+  padding-left: 100px;
+  float: left;
+}
+.contact .infoContact div{
+  width: 70%;
+}
+.floatMap{
+  float: left;
+  margin: 30px;
+}
+.contact .infoContact h3{
+  color: #303030;
+  font-size: 32px;
+}
+.mapouter {
+  display: table;
+}
+.gmap_canvas {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  width: 490px;
+  background: #fff;
+}
+.iconCon{
+  display: block;
+  margin-top: 20px;
+}
+.infoContact h3{
+  margin: 0;
+}
+.gmap_canvas iframe {
+  position: relative !important;
+  z-index: 2 !important;
+}
+.gmap_canvas a {
+  color: #fff !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 0 !important;
+}
+
+.footer{
+  width: 100%;
+  height: auto;
+  
+}
+.footerinfo{
+  width: 100%;
+  height: 350px;
+  background-image: url(../images/footerbackgrond.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+ 
+
+}
+
+.footericons{
+  float: left;
+  width: 20%;
+  margin-left: 60px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.footericons .iconFoot{
+  margin-top: 20px;
+}
+.footerimage{
+  width: 100%;
+  background-color: rgb(19, 13, 42);
+  text-align: center;
+}
+.footerimage span{
+  color: white;
+  display: block;
+  margin-bottom: 30px;
+}
+.footerimagelogo{
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border-radius: 50%;
+}
+.iconfooter{
+  color: white;
+  display: block;
+}
+.iconfooter i{
+  padding-left: 20px;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+/* End footer */
+
+
+
+
+
+.totopicon img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.totopicon{
+  margin-top: -100px;
+}
+.totopicon{
+  width: 10%;
+  height: 70px;
+  margin-left: auto;
+  
+}
